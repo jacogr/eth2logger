@@ -1,0 +1,24 @@
+{
+  "name": "abc2logger",
+  "version": "0.1.0",
+  "description": "A very basic, no-frills logger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./example.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacogr/abc2logger.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacogr/abc2logger/issues"
+  },
+  "homepage": "https://github.com/jacogr/abc2logger#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "jest": "^20.0.4"
+  }
+}
