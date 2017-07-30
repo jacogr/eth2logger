@@ -21,23 +21,23 @@ function logger (type/*: string */, withDebug/*: boolean */ = false) {
       return;
     }
 
-    console.info.apply(null, [chalk.blue(format('DEBUG', type, pid))].concat(info));
+    console.info.apply(null, [chalk.blue(format('DEBUG', type))].concat(info));
   }
 
   function error (...info/*: Array<any> */)/*: void */ {
-    console.error.apply(null, [chalk.red(format('ERROR', type, pid))].concat(info));
+    console.error.apply(null, [chalk.red(format('ERROR', type))].concat(info));
   }
 
   function log (...info/*: Array<any> */)/*: void */ {
-    console.log.apply(null, [format('INFO', type, pid)].concat(info));
+    console.log.apply(null, [format('INFO', type)].concat(info));
   }
 
   function ok (...info/*: Array<any> */)/*: void */ {
-    console.log.apply(null, [chalk.green(format('OK', type, pid))].concat(info));
+    console.log.apply(null, [chalk.green(format('OK', type))].concat(info));
   }
 
   function warn (...info/*: Array<any> */)/*: void */ {
-    console.warn.apply(null, [chalk.yellow(format('WARN', type, pid))].concat(info));
+    console.warn.apply(null, [chalk.yellow(format('WARN', type))].concat(info));
   }
 
   return {
