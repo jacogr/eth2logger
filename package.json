@@ -1,29 +1,29 @@
 {
-  "name": "abc2logger",
-  "version": "0.1.0",
+  "name": "eth2logger",
+  "version": "0.2.0",
   "description": "A very basic, no-frills logger",
   "main": "index.js",
   "scripts": {
     "start": "node ./example.js",
     "test": "npm run test:flow",
-    "test:flow": "flow check", 
+    "test:flow": "flow check",
     "test:jest": "NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacogr/abc2logger.git"
+    "url": "git+https://github.com/jacogr/eth2logger.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacogr/abc2logger/issues"
+    "url": "https://github.com/jacogr/eth2logger/issues"
   },
-  "homepage": "https://github.com/jacogr/abc2logger#readme",
+  "homepage": "https://github.com/jacogr/eth2logger#readme",
   "dependencies": {
-    "chalk": "^2.0.1",
-    "jest": "^20.0.4"
+    "chalk": "^2.0.1"
   },
   "devDependencies": {
-    "flow-bin": "^0.51.1"
+    "flow-bin": "^0.51.1",
+    "jest": "^20.0.4"
   }
 }
